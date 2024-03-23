@@ -1,5 +1,5 @@
 <?php
-$komponen = ["Motherboard", "Processor", "Hard Disk", "PC Coller", "VGA Card", "SSD"] ;
+$komponen = ["Motherboard", "Processor", "Hard Disk", "PC Coller", "VGA Card", "SSD"];
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +22,7 @@ $komponen = ["Motherboard", "Processor", "Hard Disk", "PC Coller", "VGA Card", "
   <!-- mengurutkan secara menurun (A – Z) pada macam-macam perangkat keras komputer baru. -->
   <h3>Macam-macam perangkat keras komputer baru</h3>
   <ol>
-    <?php array_push($komponen, "Card Reader", "Modem") ;
+    <?php array_push($komponen, "Card Reader", "Modem");
     asort($komponen); ?>
     <?php foreach ($komponen as $kpb) : ?>
       <li><?= $kpb; ?></li>
